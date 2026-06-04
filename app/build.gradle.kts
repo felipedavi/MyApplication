@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.myapplication"
     compileSdk {
-        version = release(36) {
+        version = release(BAKLAVA) {
             minorApiLevel = 1
         }
     }
