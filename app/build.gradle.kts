@@ -6,13 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.myapplication"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.myapplication"
         minSdk = N
-        targetSdk = 37
-        versionCode = 1
+        targetSdk = 36
         versionName = "1.0"
     }
 
@@ -32,7 +31,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.core)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity.ktx)
