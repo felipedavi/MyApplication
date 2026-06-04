@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <!-- HomeFragment -->
+    <string name="text_main">Hello, World!</string>
 </resources>
