@@ -1,3 +1,5 @@
+import com.android.sdklib.AndroidVersion.VersionCodes.BAKLAVA
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -13,7 +15,7 @@ android {
     defaultConfig {
         applicationId = "com.example.myapplication"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = BAKLAVA
         versionCode = 1
         versionName = "1.0"
 
